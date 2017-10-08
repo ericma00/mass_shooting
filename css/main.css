@@ -1,0 +1,64 @@
+/* You'll probably want to add some styles here */
+#map-container {
+	height:800px;
+}
+
+/* Work around for clashing materialize and leaflet styles */
+input[type="checkbox"].leaflet-control-layers-selector,
+input[type="radio"].leaflet-control-layers-selector {
+    position:relative;
+    opacity:1;
+    left:0px;
+}
+
+label > span {
+    color:black;
+}
+
+#killed {
+	color: black;
+	font-weight: bold;
+}
+
+#injured { 
+	color: red;
+	font-weight: bold;
+}
+
+.transbox, #main {
+	background-color: #ffffff;
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+}
+header h1 {
+	padding: 1rem;
+	text-align: center;
+	font-weight: bold;
+}
+
+body {
+	background-image: url('../img/map.jpg');
+}
+
+table {
+	width: 90%;
+	margin-bottom: 1rem;
+}
+#main h3, #main p, #map-container, table {
+	margin: 2rem;
+}
+
+#main h3 {
+	padding-top: 2rem;
+}
+
+.border {
+	border-right: black dotted;
+	border-width: 1px;
+}
+
+td {
+	border-top: black dotted;
+	border-width: 1px;
+
+}
